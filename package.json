@@ -1,0 +1,12 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+      "start": "tsc --lib dom,es6 --target es6 class.ts && node class.js"
+  },
+  "dependencies": {
+    "typescript": "4.9.5"
+  }
+}
